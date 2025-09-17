@@ -62,7 +62,7 @@ The goal is to validate key user journeys such as login, shopping cart, and chec
 ---
 
 ## 8. Roles & Responsibilities
-- **Tester:** [Your Name]  
+- **Tester:** [Obadah Zitawi] 
 - **Reviewer:** (self-reviewed in this project)  
 
 ---
@@ -76,4 +76,5 @@ The goal is to validate key user journeys such as login, shopping cart, and chec
 ## 10. Schedule
 - Test design: 1 day  
 - Test execution: 2–3 days  
+
 - Documentation: 1 day
