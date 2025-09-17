@@ -17,7 +17,7 @@ The goal is to validate key user journeys such as login, shopping cart, and chec
 **Out of scope:**
 - Performance/load testing
 - Backend/database verification
-- Mobile apps
+
 
 ---
 
@@ -25,8 +25,8 @@ The goal is to validate key user journeys such as login, shopping cart, and chec
 - **Testing type:** Manual functional testing  
 - **Test design:** Based on requirements observed from the UI  
 - **Test levels:** System testing (end-to-end)  
-- **Browsers:** Chrome (latest), Edge (latest)  
-- **Defect tracking:** Documented in Markdown files / issue tracker (optional)  
+- **Browsers:** Chrome (latest) 
+- **Defect tracking:** Documented in Markdown files / Jira
 
 ---
 
@@ -57,13 +57,11 @@ The goal is to validate key user journeys such as login, shopping cart, and chec
 ## 7. Deliverables
 - Test Plan (`TestPlan.md`)  
 - Test Cases (`TestCases.md`)  
-- Defect reports (if any, optional at this stage)  
 
 ---
 
 ## 8. Roles & Responsibilities
 - **Tester:** [Obadah Zitawi] 
-- **Reviewer:** (self-reviewed in this project)  
 
 ---
 
@@ -78,3 +76,4 @@ The goal is to validate key user journeys such as login, shopping cart, and chec
 - Test execution: 2–3 days  
 
 - Documentation: 1 day
+
