@@ -1,0 +1,12 @@
+# build results
+bin/
+obj/
+
+# user-specific files
+*.user
+*.suo
+*.cache
+*.log
+
+# packages
+packages/
