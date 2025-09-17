@@ -1,0 +1,12 @@
+# Test Cases – SauceDemo QA Portfolio Project
+
+| ID   | Title                   | Preconditions           | Steps                                                                                      | Expected Result                                  | Actual Result                   | Status |
+|------|-------------------------|-------------------------|--------------------------------------------------------------------------------------------|-------------------------------------------------|---------------------------------|--------|
+| TC01 | Login with valid user   | On Login Page           | 1. Enter `standard_user` <br> 2. Enter password `secret_sauce` <br> 3. Click Login         | User is redirected to **Products** page          | User redirected to Products page | Pass   |
+| TC02 | Login with locked user  | On Login Page           | 1. Enter `locked_out_user` <br> 2. Enter password `secret_sauce` <br> 3. Click Login      | Error: *"Sorry, this user has been locked out."* | Locked out message displayed     | Pass   |
+| TC03 | Invalid password login  | On Login Page           | 1. Enter `standard_user` <br> 2. Enter invalid password `abcd123` <br> 3. Click Login     | Error: *"Username and password do not match..."* | Error shown as expected          | Pass   |
+| TC04 | Add product to cart     | Logged in as `standard_user` | 1. From Products page click *Add to cart* (Backpack) <br> 2. Open Cart                   | Backpack visible in cart with correct details    | Backpack shown in cart           | Pass   |
+| TC05 | Remove product from cart| Product already in cart | 1. Open Cart <br> 2. Click *Remove* next to Backpack                                      | Product is removed from cart                     | Product removed                  | Pass   |
+| TC06 | Checkout success        | Product in cart         | 1. Click Checkout <br> 2. Fill First/Last name + ZIP <br> 3. Continue <br> 4. Finish      | Message: *"Thank you for your order!"* appears   | Order completed, message shown   | Pass   |
+| TC07 | Checkout missing info   | Product in cart         | 1. Click Checkout <br> 2. Leave First Name empty <br> 3. Continue                        | Error: *"Error: First Name is required"*         | Error displayed as expected      | Pass   |
+| TC08 | Logout                  | Logged in               | 1. Click menu (☰) top left <br> 2. Click Logout                                           | Redirected to Login page                         | Redirected to Login page         | Pass   |
